@@ -1,9 +1,11 @@
 <h1>📊 Power BI Sales Analysis Dashboard</h1>
 
-<p>This project is a <b>Power BI Dashboard</b> that delivers <b>actionable insights</b> into sales, profit, discounts, and customer behavior.  
-It empowers businesses to monitor performance, uncover trends, and make <b>data-driven decisions</b> effectively.</p>
+<p>
+This project is a <b>Power BI Dashboard</b> that delivers <b>actionable insights</b> into sales, profit, discounts, and customer behavior.  
+It empowers businesses to monitor performance, uncover trends, and make <b>data-driven decisions</b> effectively.
+</p>
 
-<hr>
+<hr/>
 
 <h2>🚀 Key Features & Insights</h2>
 
@@ -16,7 +18,7 @@ It empowers businesses to monitor performance, uncover trends, and make <b>data-
     <li>📦 Quantity Sold</li>
   </ul>
 </ul>
-<img width="1290" height="705" alt="Top and Bottom 5" src="https://github.com/user-attachments/assets/a6aedaed-babc-475c-8d41-9deb8a58c679" />
+<img src="https://github.com/user-attachments/assets/a6aedaed-babc-475c-8d41-9deb8a58c679" width="100%" alt="Top and Bottom 5"/>
 
 <h3>2️⃣ Sales Trends Over Time</h3>
 <p>Track sales performance across different periods:</p>
@@ -41,22 +43,33 @@ It empowers businesses to monitor performance, uncover trends, and make <b>data-
 
 <h3>6️⃣ Order Statistics</h3>
 <p>Snapshot of total <b>orders placed</b>, reflecting overall sales activity.</p>
-<img width="1288" height="724" alt="Overview" src="https://github.com/user-attachments/assets/c55cab0e-6405-4769-9a33-d472bcd2623a" />
+<img src="https://github.com/user-attachments/assets/c55cab0e-6405-4769-9a33-d472bcd2623a" width="100%" alt="Overview"/>
 
 <h3>7️⃣ Period Comparison</h3>
 <p>Compare <b>Sales, Profit, and Quantity Sold</b> between two user-selected time periods for trend analysis.</p>
-<img width="1292" height="724" alt="Comparison SalesProfitQuantity 1" src="https://github.com/user-attachments/assets/40f05cdd-e5c2-4d84-b8e2-15b7c2003fc9" />
-<img width="1295" height="715" alt="Comparison SalesProfitQuantity 0" src="https://github.com/user-attachments/assets/25df9201-e2a5-4fc6-b64c-69cf8125aca7" />
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/40f05cdd-e5c2-4d84-b8e2-15b7c2003fc9" width="100%" alt="Comparison SalesProfitQuantity 1"/></td>
+    <td><img src="https://github.com/user-attachments/assets/25df9201-e2a5-4fc6-b64c-69cf8125aca7" width="100%" alt="Comparison SalesProfitQuantity 0"/></td>
+  </tr>
+</table>
 
 <h3>8️⃣ Detailed Order Insights</h3>
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/5c38c9f1-7714-4886-93ee-3cc74a851f6b" width="100%" alt="Table Visuals"/></td>
+    <td><img src="https://github.com/user-attachments/assets/c134d156-0da2-4321-b627-bc120835f4b0" width="100%" alt="Edit Interactions"/></td>
+  </tr>
+</table>
 
-<img width="1275" height="717" alt="Table Visuals" src="https://github.com/user-attachments/assets/5c38c9f1-7714-4886-93ee-3cc74a851f6b" />
+<p>
+Interactive tables showcasing <b>Sales, Profit, Discounts, Net Sales</b>, and more for each order.  
+The visuals are fully <b>interconnected</b>, ensuring that applying any slicer or filter 
+(e.g., by Product, Date, Customer, or Promotion) dynamically updates all related visuals in real time.
+</p>
 
-<p>Interactive tables showcasing <b>Sales, Profit, Discounts, Net Sales</b>, and more for each order.  
-The visuals are fully <b>interconnected</b>, ensuring that applying any slicer or filter (e.g., by Product, Date, Customer, or Promotion) dynamically updates all related visuals in real time.</p>
-<img width="1265" height="721" alt="Edit Interactions" src="https://github.com/user-attachments/assets/c134d156-0da2-4321-b627-bc120835f4b0" />
-
-<hr>
+<hr/>
 
 <h2>🛠️ Tools Used</h2>
 <ul>
@@ -65,6 +78,8 @@ The visuals are fully <b>interconnected</b>, ensuring that applying any slicer o
   <li><b>DAX Measures</b> → KPIs and calculated fields</li>
 </ul>
 
+<hr/>
+
 <h2>📌 How to Use</h2>
 <ol>
   <li>Download and open the <code>.pbix</code> file in <b>Power BI Desktop</b>.</li>
@@ -72,5 +87,10 @@ The visuals are fully <b>interconnected</b>, ensuring that applying any slicer o
   <li>Drill down by <b>products, customers, cities, or time periods</b>.</li>
 </ol>
 
+<hr/>
+
 <h2>📂 Dataset</h2>
-<p>The dataset was thoroughly <b>cleaned, transformed, and pre-processed</b> to ensure reliable and accurate reporting in Power BI.</p>
+<p>
+The dataset was thoroughly <b>cleaned, transformed, and pre-processed</b> 
+to ensure reliable and accurate reporting in Power BI.
+</p>
